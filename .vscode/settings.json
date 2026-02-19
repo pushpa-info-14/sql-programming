@@ -17,6 +17,47 @@
       "name": "W3Schools",
       "database": "W3Schools",
       "username": "user"
+    },
+    {
+      "connectionTimeout": 15,
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true,
+        "trustServerCertificate": true
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 1433,
+      "askForPassword": true,
+      "driver": "MSSQL",
+      "name": "MavenAnalyticsBabyNames",
+      "database": "MavenAnalyticsBabyNames",
+      "username": "user"
+    },
+    {
+      "connectionTimeout": 15,
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true,
+        "trustServerCertificate": true
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 1433,
+      "askForPassword": true,
+      "driver": "MSSQL",
+      "name": "MavenAnalyticsSales",
+      "database": "MavenAnalyticsSales",
+      "username": "user"
     }
-  ]
+  ],
+
+  "[sql]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  }
 }
